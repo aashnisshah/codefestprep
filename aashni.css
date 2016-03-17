@@ -22,3 +22,8 @@ header {
   text-align: center;
   font-size: 3em;
 }
+
+#main {
+  width: 80%;
+  margin: 20px auto;
+}
