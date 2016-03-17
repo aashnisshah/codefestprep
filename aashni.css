@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -24,6 +25,25 @@ header {
 }
 
 #main {
-  width: 80%;
+  width: 60%;
   margin: 20px auto;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: 40px;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-top: 0.8em;
 }
