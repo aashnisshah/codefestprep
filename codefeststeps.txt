@@ -1,0 +1,41 @@
+Steps:
+
+Do first set of slides --> explain what git is, upto the "Lets make a git repo" slide (17?)
+
+Everyone should start --> make their own repo so that we can come up with their own username.github.com/codefest websites
+--> Create a new repository on github
+ 		- call it 'codefest'
+ 		- explain what the different options are
+--> clone the repository to local desktop
+--> git status
+--> create a new file called 'index.html' and add 'hello world' as the content
+--> git status
+--> git diff --color
+--> git add index.html
+-->	git commit -m "create hello world file"
+--> git push
+--> go onto github.com/username/codefest and see the changes
+--> create a branch, so that it'll show up on username.github.io/codefest
+--> git checkout -b gh-pages
+--> git push
+--> go to username.github.io/codefest
+
+
+Now go back to the slides, and teach HTML/CSS
+
+--> now start making the changes to the file
+--> general page setup --> head/body split, css page
+--> unicord background with header text
+--> create main content section with the About Me text underneath
+--> create a list of your favorite movies
+--> add styling to the paragraph and list
+--> add unicorn image gallery section
+--> add a youtube video
+--> gh-pages branch
+--> add people in the class
+	--> get everyone to clone my repository
+	--> go into the index.html file
+	--> add their name, and the link to their repository or gh-pages
+	--> git add index.html
+	--> git commit -m "added username's website"
+	--> git push
